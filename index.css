@@ -22,7 +22,7 @@ header nav{
 #logo{ 
     width: 60px;
     height: 60px;   
-    background: url("./assets/logo.png");
+    background: url("/assets/logo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ header nav ul li::before{
 .showcase{ 
     text-align: center;
     padding: 39vh;
-    background: linear-gradient(to top right, var(--mainColor) , rgba(243, 137, 38, 0.5)) , url("./assets/office.jpg");
+    background: linear-gradient(to top right, var(--mainColor) , rgba(243, 137, 38, 0.5)) , url("/assets/office.jpg");
     font-size: 1.7em;
     background-position: center;
     background-size: cover;
@@ -133,7 +133,7 @@ header nav ul li::before{
 .qualityBox .qualityBoxImg{ 
     width: 40vw;
     height: 50vh;
-    /* background: url("./assets//safeIcon.png"); */
+    /* background: url("/assets//safeIcon.png"); */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ header nav ul li::before{
 .partners{ 
     padding: 30vh 4em;
     height: 80vh;
-    background: url("./assets/patners.png");
+    background: url("/assets/patners.png");
     background-size: 112%;
     background-position-x: -45px;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ header nav ul li::before{
 .partners::before{ 
     width: 100px;
     height: 100px;
-    background: url('./assets/setting.svg');
+    background: url('/assets/setting.svg');
     background-position: center;
     background-size: contain;
     display: block;
